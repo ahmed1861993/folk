@@ -1,0 +1,400 @@
+
+
+body {
+    margin:-15px 0 0 0;
+    padding: 0px; 
+    font-family: monospace;
+ 
+ 
+    
+}
+
+/* Navbar style */
+
+.navbar{
+    width:100%;
+    height: 50px;
+    background: #360836;
+    margin-top: 0px;
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+  
+}
+
+.navbar ul li{
+    display: inline-block;
+      
+}
+
+.navbar ul li a{
+    color: #ff0048;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+.navbar ul li a.active{
+    color: #fff;
+}
+
+/* Web folk */
+
+.web .folk{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+
+.web{
+    width: 100%;
+    height: 750px;
+    background: url(../image/cover4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+   
+}
+
+.web .folk h2{
+    margin: 0;
+    padding: 0;
+     font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.web .folk p{
+    letter-spacing: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.web .dream p{
+    color: #fff;
+     font-size: 25px;
+}
+.web .work{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    left: 42%;
+    background: #ff0048;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+  
+    font-size: 20px;
+}
+
+.web .work:after{
+    content: "";
+    border-top: 15px solid #ff0048;
+     border-bottom: 15px solid #ff0048;
+     border-right: 15px solid #00f transparent;
+     border-left: 15px solid #f50 transparent;
+    position: relative;
+    top:42px;
+    left: -10px;
+}
+
+/* images */
+
+.images{
+    width: 100%;
+}
+ .images .img{
+    width: 25%;
+    height: 250px;
+  background: url(../image/gal1.jpeg);
+     float: left;
+   
+}
+
+.images .img .over{
+    width: 100%;
+    height: 100%;
+     background: rgba(0,0,0,0.5);
+     opacity: 0;
+    
+}
+
+.images .img:hover .over{
+    opacity: 1;
+}
+
+.images .i_1 { background: url(../image/gal2.jpeg)}
+.images .i_2{ background: url(../image/gal3.jpeg);}
+.images .i_3{ background: url(../image/gal4.jpeg);}
+.images .i_4{ background: url(../image/gal5.jpeg);}
+.images .i_5{ background: url(../image/gal6.jpeg);}
+.images .i_6{ background: url(../image/gal7.jpeg);}
+.images .i_7{ background: url(../image/gal8.jpeg);}
+.images .i_8{ background: url(../image/gal9.jpeg);}
+.images .i_9{ background: url(../image/gal10.jpeg);}
+.images .i_10{ background: url(../image/gal11.jpeg);}
+.images .i_11{ background: url(../image/gal12.jpeg);}
+.images .i_11{ background: url(../image/gal13.jpeg);}
+
+.clear{
+    clear: both;
+}
+
+/* Meet */
+
+.meet{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align: center;
+}
+
+
+.meet .head{
+    position: absolute;
+    top: 0;
+    background: #ff0048;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.meet h2{
+    margin: 0;
+    padding: 6%;
+    color: #ff0048;
+    font-size: 35px;
+}
+.meet .meet_image {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.meet .meet_image h3{
+    color: #ff0048;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.meet button{
+    width: 120px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    
+   
+}
+
+/* End */
+
+.end{
+    width: 100%;
+    height: 800px;
+    background: url(../image/footer.jpeg);
+    margin-top: 1200px;
+    background-size: cover;
+      text-align: center;
+    padding-top: 7%;
+    
+      
+}
+
+.end .content{
+    width: 400px;
+  margin-top: 7%;
+    display: inline-block;
+    color: #fff;
+  
+}
+
+.end .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.end button{
+    margin-top: 8%;
+    background: #fff;
+    border: 0;
+    width: 150px;
+    padding: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.end .bol{
+    text-align: center;
+}
+
+.end .bol span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.end .bol span:hover{
+    background: #ff0048;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: #dedddd;
+    line-height: 80px;
+    font-size: 25px;
+        
+}
+
+/************************************** Contact.html******************************************/
+.contact{
+    width: 100%;
+    height: 800px;
+   background: url(../image/cover5.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h2{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact .form{
+    width:500px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.contact .form input[type=text], textarea{
+    display: block;
+    width: 98%;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 0;
+    background: #df1a5a;
+    color: #fff;
+    padding-left: 10px;
+}
+
+
+textarea{height: 200px;}
+
+.contact .form h2{
+    color: #df1a5a;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.contact .form input[type=submit]{
+    float: right;
+    border: 0;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.become{
+    width: 100%;
+    height: 200px;
+    background: #f5f5f5;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.become h2{
+    margin: 0;
+    color:#df1a5a;
+    font-size: 40px;
+}
+
+.become p{
+    font-size: 20px;
+}
+
+/********************************** Book online ***************/
+
+.cont{
+    width: 100%;
+    height: 900px;
+    background: url(../image/cover5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont h2{
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+    font-size: 40px;
+    padding: 50px;
+}
+.cont .cover{
+    width: 900px;
+    height: 400px;
+    background: #fff;
+    margin: auto;
+}
+
+.cont .cover .left{
+    width: 45%;
+    float: left;
+}
+
+.cont .cover .left img{
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+    margin-bottom: 80px;
+}
+
+
+.cont .cover .right{
+    width: 45%;
+    margin-top: 20px;
+    float: right;
+    background: #eee;
+    text-align: center;
+}
+
+.cont .cover .right p{
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.cont .cover .right button{
+    margin-top: 40px;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
